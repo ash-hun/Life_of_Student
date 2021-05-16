@@ -1,1 +1,11 @@
 /* style. css */
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    width:100vw;
+    height:100vh;
+    background:radial-gradient(lightYellow 10%, #090b29 30%,#000000);
+}
