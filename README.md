@@ -1,6 +1,6 @@
 ___  
 
-<div align="center"><h1>Life of student in computerScience</h1><h2>"컴공인의 삶"</h2></div>
+<div align="center"><h1>Life of student (feat. Computer Science)</h1><h2>"컴공인의 삶"</h2></div>
 
 ___  
 
