@@ -6,6 +6,10 @@ ___
 
 ## 😀 Title
   한남대학교 `웹스크립트 프로그래밍` 팀 프로젝트 **<컴공생의 삶>** 입니다. 
+
+## 😏 PreCondition
+- `main Page`의 경우 html5의 `semantic tag(= header, nav, main, footer, section, aside, article, etc...) `가 무조건 포함될 것.
+
 ## 😁 Coworker
 | **Name** | **Github** | **Position** | **Comments** |
 |:--------:|:-------:|:-------:|:-------:|
