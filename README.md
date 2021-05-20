@@ -1,16 +1,19 @@
 ___  
 
-<div align="center"><h1>Life of student (feat. Computer Science)</h1><h2>"컴공인의 삶"</h2></div>
+<div align="center">
+  <img src="./static/img/logo.png">
+  <h2><b>( feat. Computer Science )</b></h2>
+</div>
 
 ___  
 
-## 😀 Title
-  한남대학교 `웹스크립트 프로그래밍` 팀 프로젝트 **<컴공생의 삶>** 입니다. 
+# 😀 Title
+  한남대학교 `웹스크립트 프로그래밍` 팀 프로젝트 **<컴공인의 삶>** 입니다. 
 
-## 😏 PreCondition
+# 😏 PreCondition
 - `main Page`의 경우 html5의 `semantic tag(= header, nav, main, footer, section, aside, article, etc...) `가 무조건 포함될 것.
 
-## 😁 Coworker
+# 😁 Coworker
 | **Name** | **Github** | **Position** | **Comments** |
 |:--------:|:-------:|:-------:|:-------:|
 |이규호|[RottenTofu](https://github.com/RottenTofu)| Coworker | 하고 싶은거 다하고 갈게여~ |
@@ -19,7 +22,7 @@ ___
 |심영훈|[Syh1999](https://github.com/Syh1999)| Coworker | |
 ___  
 
-## 😎 Page Constructor
+# 😎 Page Constructor
 ```
 < Project Dir tree>
 -----------------------------------------
@@ -32,13 +35,14 @@ ___
     ├──css
         └─style.css
     ├──img
+        └─logo.png
     └──js
         └─index.js
 -----------------------------------------
 ```
 ## 🤔 About Project
   
-### Part distribution
+### - Part distribution
 ```
 - Page main : 최재훈
   Page 1 => (학교근처 개발하기 좋은 커피집) : 심영훈
@@ -47,7 +51,7 @@ ___
   Page 4 => (조원 Git) : 최재훈
 ```
 
-### Project Period
+### - Project Period
 ```
 - 프로젝트 기간
     사전 계획(레이아웃, 들어갈 컨텐츠) : 5/17 ~ 5/23(7일)
