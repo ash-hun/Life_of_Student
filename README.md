@@ -11,6 +11,7 @@ ___
   한남대학교 `웹스크립트 프로그래밍` 팀 프로젝트 **<컴공인의 삶>** 입니다. 
 
 # 😏 PreCondition
+- 프로젝트 진행에 필요한 [`Style Convention`](https://github.com/JH9892/Life_of_Student/blob/main/src/styleConvention.md)을 기재해 놓았으니 참고하시면 됩니다.
 - `main Page`의 경우 html5의 `semantic tag(= header, nav, main, footer, section, aside, article, etc...) `가 무조건 포함될 것.
 
 # 😁 Coworker
