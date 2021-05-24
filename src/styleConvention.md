@@ -13,15 +13,14 @@ ___
 4. 프로젝트 기한엄수를 무엇보다 중요히 생각한다.
 5. 본인이 맡은 파트는 본인이 책임질 것.
 
-___ 
+___
 ## 🟥 페이지 별 구성
-1. 해당 프로젝트는 총 `5페이지`로 구성된다.
-2. `5페이지`는 각각 아래와 같이 명칭하며 담당자를 분배한다.
+1. 해당 프로젝트는 총 `4페이지`로 구성된다.
+2. `4페이지`는 각각 아래와 같이 명칭하며 담당자를 분배한다.
     - **Main Page** : JH9892
     - **Coffee Page** : Syh1999
-    - **Tool Page** : RottenTofu
     - **Study Page** : sinbak
-    - **Github Page** : JH9892
+    - **Github Page** : RottenTofu
 3. 공통 스타일 가이드 소개
     1. 프로젝트에 사용되는 각각의 `파일은 모두 따로 구분하여 link시키는것을 원칙`으로 한다.
     2. `모든 표기는 camelCase를 원칙`으로 한다.
@@ -38,12 +37,11 @@ ___
         -> 해당 태그는 Github Page의 footer 영역을 의미하지만 design상 모든 페이지의 footer에 적용되는 내용이 존재한다는 가정하에 id와 class를 같이 적용한 모습이다.
     6. `id`는 요소가 가지는 고유한 속성을 넣을때 사용하고, `class`는 다수의 요소가 가지는 공통된 속성을 넣을때 사용하므로 프로젝트 내부에서 최대한 분별하도록 한다.
 
-___ 
+___
 ## 🟨 파일 구성
 1. 각 페이지는 아래와 같이 구성한다.
     - Main Page : **index.html**
     - Coffee Page : **Coffee.html**
-    - Tool Page : **Tool.html**
     - Study Page : **Study.html**
     - Github Page : **Github.html**
 2. 각 페이지에 해당하는 js와 css파일은 파일명을 그대로 사용한다.
