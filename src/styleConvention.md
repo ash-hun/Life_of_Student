@@ -19,9 +19,10 @@ ___
 2. `5페이지`는 각각 아래와 같이 명칭하며 담당자를 분배한다.
     - **Main Page** : JH9892
     - **Coffee Page** : Syh1999
-    - **Tool Page** : RottenTofu
     - **Study Page** : sinbak
-    - **Github Page** : JH9892
+    - **Github Page** : RottenTofu  
+
+
 3. 공통 스타일 가이드 소개
     1. 프로젝트에 사용되는 각각의 `파일은 모두 따로 구분하여 link시키는것을 원칙`으로 한다.
     2. `모든 표기는 camelCase를 원칙`으로 한다.
