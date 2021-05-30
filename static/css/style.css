@@ -2,23 +2,17 @@
 *{
     margin:0;
     padding:0;
+    overflow: hidden;
 }
 
-body {
-    background-color: #222;
-    color: #fff;
-    font-weight: 800;
-    font-size: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Khula", sans-serif;
-    height: 100vh;
-    box-sizing: border-box;
-    margin: 0;
+#container{
+    width: 100vw;
+    height:100vh;
+    background: radial-gradient(circle,#feffd6, #0d0b33, #04081f, #000417);
 }
 
-span {
-    display: inline-block;
+img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
