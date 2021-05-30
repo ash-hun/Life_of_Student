@@ -58,3 +58,8 @@ ___
     기능 개발(개인 파트 개발) : 5/24 ~  6/3 (10일)
     결과물 피드백 및 수정(리팩토링) : 6/4 ~ 6/10 (7일)
 ```
+
+### - Aim to developers
+- [uiGradients](https://uigradients.com/)
+- [colorpicker](https://www.google.com/search?q=colorpicker&rlz=1C1MSIM_enKR930KR930&oq=colorpicker&aqs=chrome.0.69i59.3272j0j7&sourceid=chrome&ie=UTF-8)
+- [TCP School in CSS](http://tcpschool.com/css/intro)
