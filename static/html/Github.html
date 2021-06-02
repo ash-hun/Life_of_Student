@@ -10,22 +10,23 @@
 
         <section class = "C_scene">
             <img class = "C_sun" src="../img/b_git.png"></img>
-            <div class = "C_banner">
+            <div class = "C_banner" onmouseenter="zoomin(event)" onmouseleave="zoomout(event)">
                 <img src="../img/이규호.png" width="30%">
-                <br><a class = "C_ scene" href="https://github.com/RottenTofu">이규호</a>
+                <br><a href="https://github.com/RottenTofu" target="_blank">이규호</a>
             </div>
-            <div class = "C_banner">
+            <div class = "C_banner" onmouseenter="zoomin(event)" onmouseleave="zoomout(event)">
                 <img src="../img/최재훈.png" width="30%">
-                <br><a href="https://github.com/JH9892">최재훈</a>
+                <br><a href="https://github.com/JH9892" target="_blank">최재훈</a>
             </div>
-            <div class = "C_banner">
+            <div class = "C_banner" onmouseenter="zoomin(event)" onmouseleave="zoomout(event)">
                 <img src="../img/심영훈.png" width="30%">
-                <br><a href="https://github.com/Syh1999">심영훈</a>
+                <br><a href="https://github.com/Syh1999" target="_blank">심영훈</a>
             </div>
-            <div class = "C_banner">
+            <div class = "C_banner" onmouseenter="zoomin(event)" onmouseleave="zoomout(event)">
                 <img src="../img/신현수.png" width="30%">
-                <br><a href="https://github.com/sinbak">신현수</a>
+                <br><a href="https://github.com/sinbak" target="_blank">신현수</a>
             </div>
+            <img src="../img/off_button.png" class="C_end">
         </section>
 
         <script>
@@ -34,6 +35,16 @@
             sun.onclick = function()
             {
                 body.classList.toggle('C_dark')
+            }
+            function zoomin(event){
+                event.target.style.transform = "scale(1.2)";
+                event.target.style.zindex = 1;
+                event.target.style.transition = "all 0.5e";
+            }
+            function zoomout(event){
+                event.target.style.transform = "scale(1)";
+                event.target.style.zindex = 0;
+                event.target.style.transition = "all 0.5e";
             }
         </script>
     </body>
