@@ -1,24 +1,108 @@
 /* style. css */
+/* ------ All area ------ */
 *{
     margin:0;
     padding:0;
+    overflow: hidden;
 }
 
-body {
-    background-color: #222;
-    color: #fff;
-    font-weight: 800;
-    font-size: 5vw;
+.C_container{
+    width:100vw;
+    height:100vh;
+    background-image: url("../img/밝_大.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+}
+
+/*------ Header Area ------*/
+#I_header {
+    width: 100vw;
+    height: 10vh;
+    margin: 10px 10px 0 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Khula", sans-serif;
-    height: 100vh;
-    box-sizing: border-box;
-    margin: 0;
+    flex-direction: row;
 }
 
-span {
-    display: inline-block;
+#I_title_logo {
+    width: 30vw;
+    height: inherit;
+    justify-content: flex-start;
+    background-color: cadetblue;
+}
+/*------ Main Area ------*/
+#I_mainArea {
+    width: 100vw;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.C_light {
+    position: absolute;
+    width:3vw;
+    height:15.5vh;
+    align-self: center;
+    cursor:pointer;
+}
+
+.C_darkmode {
+    width:100vw;
+    height:100vh;
+    background-image: url("../img/어_大.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+}
+
+.C_right_menu {
+    position: absolute;
+    width: 10vw;
+    height:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self:flex-end;
+}
+
+.C_dot_menu {
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
+    clip-path: circle(5% at 80%);
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+.C_dot_menu:hover {
+    clip-path: circle(8% at 80%);
+}
+
+/*------ Footer Area ------*/
+
+#I_footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(255, 249, 217, 0.3);
+    padding-left: 15px;
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.C_footerContents {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
+.C_footerContents a {
+    text-decoration: none;
+    color: black;
 }

@@ -5,14 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./static/css/style.css">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/letterizejs/lib/letterize.min.js"></script>
-    <script src="./src/anime-master/lib/anime.min.js"></script> -->
-    <script type="text/javascript" href="./static/js/index.js"></script>
     <title>Life of Student</title>
 </head>
 <body>
-    <div id="container">
-        <div id="animateMe">Letterize.js and Anime.js</div>
+    <div class="C_container">
+        <header id="I_header">
+            <div id="I_title_logo">logo</div>
+        </header>
+        <main id="I_mainArea">
+            <div class="C_light" onclick="ch_bg()"></div>
+            <aside class="C_right_menu">
+                <div class="C_dot_menu" onclick="location.href ='./static/html/Github.html'"></div>
+                <div class="C_dot_menu" onclick="location.href ='#'"></div>
+                <div class="C_dot_menu" onclick="location.href ='#'"></div>
+            </aside>
+        </main>
+        <footer id="I_footer">
+            <p class="C_footerContents">
+                <b>Copyright 2021. JH9892, RottenTofu, sinbak, Syh1999. All creatures cannot be copied without permission.</b>
+            </p>
+            <p class="C_footerContents">
+                <b>Project Title</b> : Life-of-Student &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <b>Github Link</b> : 👉 <a href="https://github.com/JH9892/Life_of_Student">Life_of_Student</a>
+            </p>
+        </footer>
     </div>
+    <script>
+        function ch_bg(){
+            document.querySelector('.C_container').classList.toggle('C_darkmode')
+        }
+    </script>
 </body>
 </html>
