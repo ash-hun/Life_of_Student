@@ -23,23 +23,6 @@ ___
 |심영훈|[Syh1999](https://github.com/Syh1999)| Coworker | |
 ___  
 
-# 😎 Page Constructor
-```
-< Project Dir tree>
------------------------------------------
-.
-├─reference
-├─src
-├─index.html
-├─README.md
-└─static
-    ├──css
-        └─style.css
-    ├──img
-        └─logo.png
-    └──js
-        └─index.js
------------------------------------------
 ```
 ## 🤔 About Project
   
