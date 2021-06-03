@@ -23,7 +23,7 @@ ___
 |심영훈|[Syh1999](https://github.com/Syh1999)| Coworker | |
 ___  
 
-# 😍 Project Wiki
+# 😍 Project & Wiki
 > 자세한 개발과정은 [Project - Wiki](https://github.com/JH9892/Life_of_Student/wiki)를 참고해주세요 :)
 ![image](https://user-images.githubusercontent.com/32566767/120707230-08498680-c4f5-11eb-8098-405b3ec54853.png)
 
