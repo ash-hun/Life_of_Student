@@ -26,10 +26,11 @@
 }
 
 #I_title_logo {
-    width: 30vw;
+    width: 20vw;
     height: inherit;
+    scale: 1.5;
     justify-content: flex-start;
-    background-color: cadetblue;
+    /* background-color: cadetblue;*/
 }
 /*------ Main Area ------*/
 #I_mainArea {
