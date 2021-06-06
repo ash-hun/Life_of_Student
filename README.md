@@ -20,7 +20,7 @@ ___
 |이규호|[RottenTofu](https://github.com/RottenTofu)| Coworker | 하고 싶은거 다하고 갈게여~ |
 |최재훈|[Giraffun](https://github.com/JH9892)| Coworker | 눈이 즐거운 웹페이지를 만들겠습니다! |
 |신현수|[sinbak](https://github.com/sinbak)| Coworker | 제대로된 페이지 만들고 싶습니다!|
-|심영훈|[Syh1999](https://github.com/Syh1999)| Coworker | |
+|심영훈|[Syh1999](https://github.com/Syh1999)| Coworker | 부족한 실력이지만 노력해보겠습니다.|
 ___  
 
 # 😍 Project & Wiki
