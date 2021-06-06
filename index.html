@@ -10,14 +10,15 @@
 <body>
     <div class="C_container">
         <header id="I_header">
-            <img id="I_title_logo" src="static/img/mainlogo.png"></img>
+            <img id="I_title_logo" src="static/img/logo_take6.png"/>
+            <!-- <img id="I_title_logo" src="static/img/logo_take4_2.png"/> -->
         </header>
         <main id="I_mainArea">
             <div class="C_light" onclick="ch_bg()"></div>
             <aside class="C_right_menu">
+                <div class="C_dot_menu" onclick="location.href ='#'"></div>
+                <div class="C_dot_menu" onclick="location.href ='#'"></div>
                 <div class="C_dot_menu" onclick="location.href ='./static/html/Github.html'"></div>
-                <div class="C_dot_menu" onclick="location.href ='#'"></div>
-                <div class="C_dot_menu" onclick="location.href ='#'"></div>
             </aside>
         </main>
         <footer id="I_footer">
@@ -29,12 +30,18 @@
                 <b>Github Link</b> : 👉 <a href="https://github.com/JH9892/Life_of_Student">Life_of_Student</a>
             </p>
         </footer>
-        
     </div>
-    
     <script>
+        trig = 0;
         function ch_bg(){
             document.querySelector('.C_container').classList.toggle('C_darkmode')
+            if (trig%2 == 0){
+                document.querySelector('#I_title_logo').setAttribute("src", "static/img/logo_take6_darkmode.png")
+            }
+            else {
+                document.querySelector('#I_title_logo').setAttribute("src", "static/img/logo_take6.png")
+            }
+            trig += 1;
         }
     </script>
 </body>
