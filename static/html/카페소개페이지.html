@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+*{background-color: rgba(192, 189, 189, 0.5);}
+.clear {
+	clear: both;
+}
+header {
+	width: 1000px;
+	height: 80px;
+	margin: 10px 0 0 220px;
+	border: solid 1px blue;
+}
+nav {
+	width: 500px;
+	margin: 0 0 0 80px;
+	border: solid 1px blue;
+}
+aside {
+	width: 200px;
+	height: 600px;
+	float: left;
+	margin-top: 10px;
+	border: solid 1px blue;
+	font-style: italic;
+	
+	
+}
+section {
+	width: 1000px;
+	height: 600px;
+	float: left;
+	margin-left: 18px;
+	margin-top: 10px;
+	border: solid 1px blue;
+}
+footer {
+	width: 1220px;
+	height: 80px;
+	margin-top: 10px;
+	border: solid 1px blue;
+}
+img {
+	/*filter: grayscale(100%);*/
+	filter: brightness(50%) grayscale(100%);
+	} /*이미지 밝기 조정, 흑백처리*/
+
+
+}
+.textfont {
+	font-style: italic;
+}
+.buttons {
+	font-style: italic;
+	border: 1px solid gold;
+	border-radius: 5px;
+	background-color: honeydew;
+	margin: 5px auto;
+	padding: 5px;
+	display: block;
+	width:200px;
+	height: auto;
+	text-align: center;
+	cursor: pointer;
+
+	color: gold;
+	transition:all 0.9s;
+
+}
+.buttons:hover {
+	color:khaki;
+	
+	}
+.hover1:hover {
+	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
+	
+}	
+/*.hover1:visited + image{
+	background:url('네이버웨일캡쳐_한남대카페_아임1리터.jpg') no-repeat;
+}*/
+.hover2:hover{
+	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
+	
+}
+</style>
+</head>
+<body>
+<header>
+	<!--상단 헤더()-->
+	
+
+    <img src='../img/태양이미지1.png' width='80px;'>
+
+
+    <!--
+    <nav>
+            내비게이션 메뉴
+    </nav>
+-->
+</header>
+<aside>
+  	<!--사이드바<br><br>
+    아이엠1리터<br>
+    (카페이름 클릭시<br>
+    메인 콘텐츠에 화면 나옴)<br><br>
+    (처음 메인화면에서는<br>
+    아무것도 안나오거나<br>
+    기본화면있으면 그걸로)<br>-->
+	<button class="buttons hover1">아이엠1리터</button><br>
+	<button class="buttons hover2">마실</button><br>
+	<button class="buttons hover3">드링키</button><br>
+	<button class="buttons hover4">파스쿠찌</button><br>
+	<button class="buttons hover5">커피나무</button><br>
+	<button class="buttons hover6">보드게임카페 태기</button><br>
+	<button class="buttons hover7">꽁냥꽁냥</button><br>
+	<button class="buttons hover8">할리스커피</button><br>
+	<button class="buttons hover9">미콩커피</button><br>
+	<button class="buttons hover10">카페유앤아이</button><br>
+
+</aside>
+<section>
+	<!--메인 콘텐츠(사이드바에서 이름클릭시 맞는 화면 나옴, 간판에 마우스 갖다대면 정보표시)-->
+    <div id='image0'>
+        <img src='../img/처음이미지.jpg'>
+		<!--onmouseover='this.src="../img/네이버웨일캡쳐_한남대카페_아임1리터.jpg"' onmouseout='this.src="../img/처음이미지.jpg"'width='1000'>-->
+    </div>
+	<div id='image1'>
+		<img src='../img/네이버웨일캡쳐_한남대카페_마실.jpg' width='1000'>
+	</div>
+	
+</section>
+
+<div class='clear'></div>
+
+<footer>
+	하단 푸터
+</footer>
+</body>
+</html>
