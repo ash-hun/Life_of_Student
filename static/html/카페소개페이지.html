@@ -2,252 +2,33 @@
 <html>
 <head>
 <meta charset='utf-8'>
-<style>
-*{background-color: rgb(166, 234, 191);}
-.clear {
-	clear: both;
-}
-/*------ header Area ------*/
-header {
-	width: 1200px;
-	height: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-}
-.pageMove {
-	border: 1px solid rgba(255, 252, 202, 0.671);
-	border-radius: 50px;
-	background-color: rgb(255, 252, 202);
-	margin: 10px 10px 0 185px;
-	padding: 5px;
-	display: block;
-	width:10px;
-	height: 10px;
 
-	cursor: pointer;
-	float: left;
-}
-#headerFont {
-	font-family:'Times New Roman', Times, serif;
-	font-weight: bold;
-	font-size: 25px;
-	float: left;
-}
-/*------ section Area ------*/
-section {
-	width: 1200px;
-	height: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	background-image: url('../img/처음이미지2.jpg');
-	background-repeat: no-repeat;
-}
-/*------ id btns1~5 ------*/
-#I_btns1 {
-	width: 200px;
-	height: 40px;
-	float: left;
-	margin: 10px 10px 0 50px;
-}
-#I_btns2 {
-	width: 200px;
-	height: 40px;
-	float: left;
-	margin: 10px 10px 0 10px;
-}
-#I_btns3 {
-	width: 200px;
-	height: 40px;
-	float: left;
-	margin: 10px 10px 0 10px;
-}
-#I_btns4 {
-	width: 200px;
-	height: 40px;
-	float: left;
-	margin: 10px 10px 0 10px;
-}
-#I_btns5 {
-	width: 200px;
-	height: 40px;
-	float: left;
-	margin: 10px 50px 0 10px;
-}
-/*------ class buttons ------*/
-.C_buttons {
-	border: 1px solid rgba(255, 252, 202, 0.671);
-	border-radius: 5px;
-	background-color: rgb(255, 252, 202);
-	margin: 3px auto;
-	padding: 5px;
-	display: block;
-	width:200px;
-	height: auto;
-	
-	cursor: pointer;
-
-	color: rgba(194, 109, 197, 0.795);
-	font-family:'Times New Roman', Times, serif;
-	font-weight: bold;
-	font-size: 18px;
-	text-align: center;
-	transition:all 0.9s;
-}
-.C_buttons:hover {
-	color:rgb(255, 252, 202);
-}
-/*------ id btns1 ------*/
-#I_hover1:hover {
-	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
-}	
-#I_imageDiv1 {
-	width: 1000px;
-	height: 450px;
-	float: right;
-	position: absolute;
-	margin: 60px 100px 0 100px;
-}
-#I_imageDiv1 img {
-	width: 1000px;
-	height: 450px;
-	position: absolute;
-	border-radius: 5px;
-}
-#I_btns1 ~ #I_imageDiv1 {
-	opacity: 0;
-	transition: opacity 2s
-}
-#I_btns1:hover ~ #I_imageDiv1 {
-	opacity: 1;
-}
-/*------ id btns2 ------*/
-#I_hover2:hover{
-	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
-}
-#I_imageDiv2 {
-	width: 1000px;
-	height: 450px;
-	float: right;
-	position: absolute;
-	margin: 60px 100px 0 100px;
-}
-#I_imageDiv2 img {
-	width: 1000px;
-	height: 450px;
-	position: absolute;
-	border-radius: 5px;
-}
-#I_btns2 ~ #I_imageDiv2 {
-	opacity: 0;
-	transition: opacity 2s
-}
-#I_btns2:hover ~ #I_imageDiv2 {
-	opacity: 1;
-}
-/*------ id btns3 ------*/
-#I_hover3:hover{
-	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
-}
-#I_imageDiv3 {
-	width: 1000px;
-	height: 450px;
-	float: right;
-	position: absolute;
-	margin: 60px 100px 0 100px;
-}
-#I_imageDiv3 img {
-	width: 1000px;
-	height: 450px;
-	position: absolute;
-	border-radius: 5px;
-}
-#I_btns3 ~ #I_imageDiv3 {
-	opacity: 0;
-	transition: opacity 2s
-}
-#I_btns3:hover ~ #I_imageDiv3 {
-	opacity: 1;
-}
-/*------ id btns4 ------*/
-#I_hover4:hover{
-	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
-}
-#I_imageDiv4 {
-	width: 1000px;
-	height: 450px;
-	float: right;
-	position: absolute;
-	margin: 60px 100px 0 100px;
-}
-#I_imageDiv4 img {
-	width: 1000px;
-	height: 450px;
-	position: absolute;
-	border-radius: 5px;
-}
-#I_btns4 ~ #I_imageDiv4 {
-	opacity: 0;
-	transition: opacity 2s
-}
-#I_btns4:hover ~ #I_imageDiv4 {
-	opacity: 1;
-}
-/*------ id btns5 ------*/
-#I_hover5:hover{
-	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
-}
-#I_imageDiv5 {
-	width: 1000px;
-	height: 450px;
-	float: right;
-	position: absolute;
-	margin: 60px 100px 0 100px;
-}
-#I_imageDiv5 img {
-	width: 1000px;
-	height: 450px;
-	position: absolute;
-	border-radius: 5px;
-}
-#I_btns5 ~ #I_imageDiv5 {
-	opacity: 0;
-	transition: opacity 2s
-}
-#I_btns5:hover ~ #I_imageDiv5 {
-	opacity: 1;
-}
-</style>
+<link href="../css/cafe.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!-------- header area -------->
 <header>
-	<div id="headerFont">
-		Introduce to Cafe	
-	</div>
-	<div>
-		<button class="pageMove" onClick="location.href=' '"></button>
-		<button class="pageMove" onClick="location.href='../html/place_to_study.html'"></button>
-		<button class="pageMove" onClick="location.href='../html/Github.html'"></button>
+	<div id="I_headerFont">
+		Introducing Cafe	
 	</div>
 </header>
 <!-------- section area -------->
 <section>
 	<div id="I_btns1">
-		<button class="C_buttons" id="I_hover1">I'm 1L</button>
+		<a href="https://m.place.naver.com/restaurant/1893702127/home" target="_blank"><button class="C_buttons" id="I_hover1" >I'm 1L</button></a>
+
 	</div>
 	<div id="I_btns2">
-		<button class="C_buttons" id="I_hover2">MASIL</button>
+		<a href="https://m.map.naver.com/search2/site.naver?query=%ED%95%9C%EB%82%A8%EB%8C%80%20%EB%A7%88%EC%8B%A4&sm=hty&style=v5&code=37260145" target="_blank"><button class="C_buttons" id="I_hover2">MASIL</button></a>
 	</div>
 	<div id="I_btns3">
-		<button class="C_buttons" id="I_hover3">꽁냥꽁냥</button>
+		<a href="https://www.instagram.com/hannam_bookcafe/" target="_blank"></a><button class="C_buttons" id="I_hover3" target="_blank">꽁냥꽁냥</button></a>
 	</div>
 	<div id="I_btns4">
-		<button class="C_buttons" id="I_hover4">PASCUCCI</button>
+		<a href="https://m.place.naver.com/restaurant/16259255/home" target="_blank"></a><button class="C_buttons" id="I_hover4">PASCUCCI</button></a>
 	</div>
 	<div id="I_btns5">
-		<button class="C_buttons" id="I_hover5">커피나무</button>
+		<a href="https://m.place.naver.com/restaurant/1691753067/home" target="_blank"></a><button class="C_buttons" id="I_hover5">커피나무</button></a>
 	</div>
 	<!--메인 콘텐츠(버튼클릭시 맞는 이미지)-->
 	<div id='I_imageDiv1'>
@@ -266,6 +47,11 @@ section {
 		<img src='../img/네이버웨일캡쳐_한남대카페_커피나무.jpg' width='1000' height='450'>
 	</div>
 </section>
+<!-------- section area -------->
+<footer id="I_coffeeButton">
+	<img id="I_coffeeEmpty" src='../img/coffee-cup (1).png' width='100' height='100'>
+	<img id="I_coffeeFull" src='../img/coffee-cup (2).png' onClick="location.href='../../index.html'" width='100' height='100'>
+</footer>
 
 </body>
 </html>
