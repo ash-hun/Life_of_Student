@@ -4,13 +4,14 @@
 }
 
 .C_scene
-{
+{    
     width: 100vw;
     height: 100vh;
     background: linear-gradient(#a6eabf, #a9e7c0, #fff);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 .C_dark .C_scene{
     background: #222833;
@@ -65,14 +66,39 @@ a{color: black; text-decoration: none;}
     width: 100px;
     bottom: 8px;
     right: 16px;
-    cursor: pointer;
 }
 
 .C_dark .C_end{
     content: url("../img/off_white_button.png");
 }
 
-.C_banner :hover{
-    width: 24vw;
-    height: 60vh;
+.C_dark h2{
+    color: #fff;
+}
+
+.C_dark h3{
+    color: #fff;
+}
+
+span{
+    display: inline-block;
+}
+
+.C_Git{
+    width: 80px;
+    object-fit: cover;
+}
+.C_Insta{
+    width: 80px;
+    object-fit: cover;
+}
+
+.C_dark .C_Git{
+    width: 80px;
+    content: url("../img/gitHub_W.png");
+}
+
+.C_dark .C_Insta{
+    width: 80px;
+    content: url("../img/instagram_W.png");
 }

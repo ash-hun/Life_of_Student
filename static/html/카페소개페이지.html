@@ -11,55 +11,72 @@
 header {
 	width: 1200px;
 	height: 30px;
-	margin-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 10px;
+}
+.pageMove {
+	border: 1px solid rgba(255, 252, 202, 0.671);
+	border-radius: 50px;
+	background-color: rgb(255, 252, 202);
+	margin: 10px 10px 0 185px;
+	padding: 5px;
+	display: block;
+	width:10px;
+	height: 10px;
 
+	cursor: pointer;
+	float: left;
+}
+#headerFont {
 	font-family:'Times New Roman', Times, serif;
 	font-weight: bold;
 	font-size: 25px;
+	float: left;
 }
 /*------ section Area ------*/
 section {
 	width: 1200px;
 	height: 700px;
-	margin-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 10px;
 	background-image: url('../img/처음이미지2.jpg');
 	background-repeat: no-repeat;
 }
-/*------ btns1~5 ------*/
-.btns1 {
+/*------ id btns1~5 ------*/
+#I_btns1 {
 	width: 200px;
 	height: 40px;
 	float: left;
 	margin: 10px 10px 0 50px;
 }
-.btns2 {
+#I_btns2 {
 	width: 200px;
 	height: 40px;
 	float: left;
 	margin: 10px 10px 0 10px;
 }
-.btns3 {
+#I_btns3 {
 	width: 200px;
 	height: 40px;
 	float: left;
 	margin: 10px 10px 0 10px;
 }
-.btns4 {
+#I_btns4 {
 	width: 200px;
 	height: 40px;
 	float: left;
 	margin: 10px 10px 0 10px;
 }
-.btns5 {
+#I_btns5 {
 	width: 200px;
 	height: 40px;
 	float: left;
 	margin: 10px 50px 0 10px;
 }
 /*------ class buttons ------*/
-.buttons {
+.C_buttons {
 	border: 1px solid rgba(255, 252, 202, 0.671);
 	border-radius: 5px;
 	background-color: rgb(255, 252, 202);
@@ -78,127 +95,127 @@ section {
 	text-align: center;
 	transition:all 0.9s;
 }
-.buttons:hover {
+.C_buttons:hover {
 	color:rgb(255, 252, 202);
 }
-/*------ class btns1 ------*/
-.hover1:hover {
+/*------ id btns1 ------*/
+#I_hover1:hover {
 	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
 }	
-.imageDiv1 {
+#I_imageDiv1 {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	float: right;
 	position: absolute;
 	margin: 60px 100px 0 100px;
 }
-.imageDiv1 img {
+#I_imageDiv1 img {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	position: absolute;
 	border-radius: 5px;
 }
-.btns1 ~ .imageDiv1 {
+#I_btns1 ~ #I_imageDiv1 {
 	opacity: 0;
 	transition: opacity 2s
 }
-.btns1:hover ~ .imageDiv1 {
+#I_btns1:hover ~ #I_imageDiv1 {
 	opacity: 1;
 }
-/*------ class btns2 ------*/
-.hover2:hover{
+/*------ id btns2 ------*/
+#I_hover2:hover{
 	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
 }
-.imageDiv2 {
+#I_imageDiv2 {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	float: right;
 	position: absolute;
 	margin: 60px 100px 0 100px;
 }
-.imageDiv2 img {
+#I_imageDiv2 img {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	position: absolute;
 	border-radius: 5px;
 }
-.btns2 ~ .imageDiv2 {
+#I_btns2 ~ #I_imageDiv2 {
 	opacity: 0;
 	transition: opacity 2s
 }
-.btns2:hover ~ .imageDiv2 {
+#I_btns2:hover ~ #I_imageDiv2 {
 	opacity: 1;
 }
-/*------ class btns3 ------*/
-.hover3:hover{
+/*------ id btns3 ------*/
+#I_hover3:hover{
 	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
 }
-.imageDiv3 {
+#I_imageDiv3 {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	float: right;
 	position: absolute;
 	margin: 60px 100px 0 100px;
 }
-.imageDiv3 img {
+#I_imageDiv3 img {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	position: absolute;
 	border-radius: 5px;
 }
-.btns3 ~ .imageDiv3 {
+#I_btns3 ~ #I_imageDiv3 {
 	opacity: 0;
 	transition: opacity 2s
 }
-.btns3:hover ~ .imageDiv3 {
+#I_btns3:hover ~ #I_imageDiv3 {
 	opacity: 1;
 }
-/*------ class btns4 ------*/
-.hover4:hover{
+/*------ id btns4 ------*/
+#I_hover4:hover{
 	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
 }
-.imageDiv4 {
+#I_imageDiv4 {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	float: right;
 	position: absolute;
 	margin: 60px 100px 0 100px;
 }
-.imageDiv4 img {
+#I_imageDiv4 img {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	position: absolute;
 	border-radius: 5px;
 }
-.btns4 ~ .imageDiv4 {
+#I_btns4 ~ #I_imageDiv4 {
 	opacity: 0;
 	transition: opacity 2s
 }
-.btns4:hover ~ .imageDiv4 {
+#I_btns4:hover ~ #I_imageDiv4 {
 	opacity: 1;
 }
-/*------ class btns5 ------*/
-.hover5:hover{
+/*------ id btns5 ------*/
+#I_hover5:hover{
 	box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
 }
-.imageDiv5 {
+#I_imageDiv5 {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	float: right;
 	position: absolute;
 	margin: 60px 100px 0 100px;
 }
-.imageDiv5 img {
+#I_imageDiv5 img {
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	position: absolute;
 	border-radius: 5px;
 }
-.btns5 ~ .imageDiv5 {
+#I_btns5 ~ #I_imageDiv5 {
 	opacity: 0;
 	transition: opacity 2s
 }
-.btns5:hover ~ .imageDiv5 {
+#I_btns5:hover ~ #I_imageDiv5 {
 	opacity: 1;
 }
 </style>
@@ -206,56 +223,49 @@ section {
 <body>
 <!-------- header area -------->
 <header>
-	Introduce to Cafe
+	<div id="headerFont">
+		Introduce to Cafe	
+	</div>
+	<div>
+		<button class="pageMove" onClick="location.href=' '"></button>
+		<button class="pageMove" onClick="location.href='../html/place_to_study.html'"></button>
+		<button class="pageMove" onClick="location.href='../html/Github.html'"></button>
+	</div>
 </header>
 <!-------- section area -------->
 <section>
-	<div class="btns1">
-		<button class="buttons hover1">I'm 1L</button><br>
+	<div id="I_btns1">
+		<button class="C_buttons" id="I_hover1">I'm 1L</button>
 	</div>
-	<div class="btns2">
-		<button class="buttons hover2">MASIL</button><br>
+	<div id="I_btns2">
+		<button class="C_buttons" id="I_hover2">MASIL</button>
 	</div>
-	<div class="btns3">
-		<button class="buttons hover3">꽁냥꽁냥</button><br>
+	<div id="I_btns3">
+		<button class="C_buttons" id="I_hover3">꽁냥꽁냥</button>
 	</div>
-	<div class="btns4">
-		<button class="buttons hover4">PASCUCCI</button><br>
+	<div id="I_btns4">
+		<button class="C_buttons" id="I_hover4">PASCUCCI</button>
 	</div>
-	<div class="btns5">
-		<button class="buttons hover5">커피나무</button><br>
+	<div id="I_btns5">
+		<button class="C_buttons" id="I_hover5">커피나무</button>
 	</div>
-
-	<!--메인 콘텐츠(버튼클릭시 맞는 화면 나옴)-->
-	<div class='imageDiv1'>
-		<img id="startImage" src='../img/처음이미지.jpg' width='1000' height='600'>
-		<img id="changeImage1" src='../img/네이버웨일캡쳐_한남대카페_아임1리터.jpg' width='1000' height='600'>
+	<!--메인 콘텐츠(버튼클릭시 맞는 이미지)-->
+	<div id='I_imageDiv1'>
+		<img src='../img/네이버웨일캡쳐_한남대카페_아임1리터.jpg' width='1000' height='450'>
 	</div>
-	
-	<div class='imageDiv2'>
-		<img id="startImage" src='../img/처음이미지.jpg' width='1000' height='600'>
-		<img id="changeImage2" src='../img/네이버웨일캡쳐_한남대카페_마실.jpg' width='1000' height='600'>
+	<div id='I_imageDiv2'>
+		<img src='../img/네이버웨일캡쳐_한남대카페_마실.jpg' width='1000' height='450'>
 	</div>
-
-	<div class='imageDiv3'>
-		<img id="startImage" src='../img/처음이미지.jpg' width='1000' height='600'>
-		<img id="changeImage3" src='../img/네이버웨일캡쳐_한남대카페_꽁냥꽁냥.jpg' width='1000' height='600'>
+	<div id='I_imageDiv3'>
+		<img src='../img/네이버웨일캡쳐_한남대카페_꽁냥꽁냥.jpg' width='1000' height='450'>
 	</div>
-
-	<div class='imageDiv4'>
-		<img id="startImage" src='../img/처음이미지.jpg' width='1000' height='600'>
-		<img id="changeImage4" src='../img/네이버웨일캡쳐_한남대카페_파스쿠찌.jpg' width='1000' height='600'>
+	<div id='I_imageDiv4'>
+		<img src='../img/네이버웨일캡쳐_한남대카페_파스쿠찌.jpg' width='1000' height='450'>
 	</div>
-
-	<div class='imageDiv5'>
-		<img id="startImage" src='../img/처음이미지.jpg' width='1000' height='600'>
-		<img id="changeImage5" src='../img/네이버웨일캡쳐_한남대카페_커피나무.jpg' width='1000' height='600'>
+	<div id='I_imageDiv5'>
+		<img src='../img/네이버웨일캡쳐_한남대카페_커피나무.jpg' width='1000' height='450'>
 	</div>
-	
 </section>
-
-<div class='clear'></div>
-
 
 </body>
 </html>
