@@ -34,20 +34,38 @@ ___
 
 # 😎 Page Constructor
 ```
-< Project Dir tree>
+          < Project Dir tree>
 -----------------------------------------
 .
-├─reference
-├─src
-├─index.html
 ├─README.md
-└─static
-    ├──css
-        └─style.css
-    ├──img
-        └─logo.png
-    └──js
-        └─index.js
+├─index.html
+├─public    << Firebase Deploy route >> 
+│  ├─index.html
+│  ├─404.html
+│  └─static
+│      ├─css
+│      │  ├─style.css
+│      │  ├─cafe.css
+│      │  ├─github.css
+│      │  └─study.css
+│      ├─html
+│      │  ├─Cafe.html
+│      │  ├─Github.html
+│      │  └─Study.html
+│      └─img
+│         └─Any other source images..
+└─static  << Default Working route >> 
+   ├─css
+   │  ├─style.css
+   │  ├─cafe.css
+   │  ├─github.css
+   │  └─study.css
+   ├─html
+   │  ├─Cafe.html
+   │  ├─Github.html
+   │  └─Study.html
+   └─img
+      └─Any other source images..
 -----------------------------------------
 
 ```
