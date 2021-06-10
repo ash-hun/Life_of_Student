@@ -28,13 +28,13 @@ ___
 
 ___
 # 🤩How to see our project?
-> In below options, choose one!
-## 1. First Options! `Connect Broswer`
+> From the below options, choose one!
+## 1. First Option! `Connect Broswer`
   - Please connect to "Chrome Browser"
   - Enter the "lifeofstudent-459d1.firebaseapp.com" in the address bar.
 
-## 2. Second Options! `Click Link`
-  - Please clikck left link : 👉 [Life_of_Student](lifeofstudent-459d1.firebaseapp.com)
+## 2. Second Option! `Click Link`
+  - Please click left link : 👉 [Life_of_Student](lifeofstudent-459d1.firebaseapp.com)
 # 😎 Page Constructor
 ```bash
            Project Dir tree
