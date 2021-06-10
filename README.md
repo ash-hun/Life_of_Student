@@ -31,7 +31,7 @@ ___
 > In below options, choose one!
 ## 1. First Options! `Connect Broswer`
   - Please connect to "Chrome Browser"
-  - Enter the lifeofstudent-459d1.firebaseapp.com in the address bar.
+  - Enter the "lifeofstudent-459d1.firebaseapp.com" in the address bar.
 
 ## 2. Second Options! `Click Link`
   - Please clikck left link : 👉 [Life_of_Student](lifeofstudent-459d1.firebaseapp.com)
