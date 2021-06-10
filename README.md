@@ -34,7 +34,7 @@ ___
   - Enter the "lifeofstudent-459d1.firebaseapp.com" in the address bar.
 
 ## 2. Second Option! `Click Link`
-  - Please click left link : 👉 [Life_of_Student](lifeofstudent-459d1.firebaseapp.com)
+  - Please click left link : 👉 [Life_of_Student](https://lifeofstudent-459d1.firebaseapp.com)
 # 😎 Page Constructor
 ```bash
            Project Dir tree
