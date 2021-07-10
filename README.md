@@ -35,6 +35,10 @@ ___
 
 ## 2. Second Option! `Click Link`
   - Please click left link : 👉 [Life_of_Student](https://lifeofstudent-459d1.firebaseapp.com)
+
+## 3. Third Option! **[`Life_of_Students`](https://jh9892.github.io/Life_of_Student/)**
+  - Please click the Link!
+
 # 😎 Page Constructor
 ```bash
            Project Dir tree
